@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Read(/Users/rkryz/Documents/VibeCoding/Portfolio/**)",
+      "Bash(open index.html)",
+      "mcp__ide__executeCode"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -777,6 +777,8 @@
     background: linear-gradient(to bottom, #dddce4, #f9f8ff 78.364%) !important;
 }
 
+.bg-gradient-workshop h2{ font-size: var(--text-heading-01);}
+
 /* Knowledge sharing background */
 .bg-knowledge-sharing {
     background-image: url('img/team-education/other knowledge sharing bg.png') !important;

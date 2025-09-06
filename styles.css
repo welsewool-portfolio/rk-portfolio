@@ -96,7 +96,7 @@
       --text-body-01: 18px;
       --text-body-02: 16px;
       --text-body-03: 15px;
-      --text-lead: 20px;
+      --text-lead: 24px;
       --text-quote: 32px;
       --text-subtitle: 18px;
       --text-nav-01: 16px;
@@ -1392,7 +1392,7 @@
     .section-story .user-story p,
     .section-story .ux-story p {
         font-size: var(--text-lead);
-        line-height: 32px;
+        line-height: 36px;
     }
 }
 

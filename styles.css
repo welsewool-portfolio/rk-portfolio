@@ -1296,6 +1296,13 @@
     align-items: flex-start;
 }
 
+@media (max-width: 767px) {
+    .languages-grid {
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+}
+
 .language-item {
     display: flex;
     gap: var(--space-sm);

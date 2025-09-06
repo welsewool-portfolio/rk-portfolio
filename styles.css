@@ -22,7 +22,7 @@
     --color-bg-accent: var(--yellow-400);
   
     /* Typography */
-    --font-primary: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-primary: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     --weight-regular: 400;
     --weight-medium: 500;
     --weight-semibold: 600;
@@ -295,7 +295,7 @@
      ========================================================= */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   
-  html { scroll-behavior: smooth; font-size: 16px; font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;}
+  html { scroll-behavior: smooth; font-size: 16px; font-family: var(--font-primary); }
   body, input, button, textarea, select { font-family: inherit !important; }
   body {
     color: var(--color-text-primary);
@@ -315,7 +315,7 @@
      ========================================================= */
   /* Shared heading styles */
   :is(h1, h2, h3, h4, h5) {
-    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: var(--font-primary);
     font-weight: var(--weight-black);
     color: var(--color-text-primary);
     text-transform: uppercase;

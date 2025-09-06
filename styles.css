@@ -22,7 +22,7 @@
     --color-bg-accent: var(--yellow-400);
   
     /* Typography */
-    --font-primary: 'Inter', sans-serif;
+    --font-primary: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     --weight-regular: 400;
     --weight-medium: 500;
     --weight-semibold: 600;

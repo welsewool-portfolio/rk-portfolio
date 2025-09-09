@@ -56,39 +56,6 @@ This portfolio belongs to Roman Kryzhanovskyi, a User Experience Designer specia
 - **CSS Grid & Flexbox** - Modern layout systems
 - **Media Queries** - Responsive breakpoint system
 
-## 📁 Project Structure
-
-```
-portfolio/
-├── index.html                          # Homepage (Who I am)
-├── what-i-do.html                      # Services page
-├── selected-projects.html              # Main projects gallery
-├── ai-projects.html                    # AI-focused projects
-├── design-system.html                  # Design system showcase
-├── team-education.html                 # Training & workshops
-├── media.html                          # Publications & media
-├── contact.html                        # Contact form
-├── styles.css                          # Main stylesheet with design tokens
-├── navigation.js                       # Navigation controller with mobile support
-├── lightbox.js                         # Image gallery functionality
-├── img/                                # Image assets organized by page
-│   ├── index/                         # Homepage images
-│   ├── healthcare-enterprise/         # Project-specific images
-│   ├── code-discovery-platform/       # Project-specific images
-│   └── ...                           # Additional project directories
-└── Project Pages/
-    ├── healthcare-enterprise.html      # Individual project case studies
-    ├── code-discovery-platform.html
-    ├── motoshare.html
-    ├── vendor-portal.html
-    └── vehicle-tracking-system.html
-```
-
-### File Organization
-- Main HTML files in root directory
-- All styles consolidated in `styles.css`
-- JavaScript modules: `navigation.js`, `lightbox.js`
-- Images organized by page in `img/` directory
 
 ## 📱 Browser Support
 
@@ -97,23 +64,6 @@ portfolio/
 - Safari 14+
 - Edge 90+
 
-
-## 📈 Performance Features
-
-- **Optimized Images** - Properly sized and compressed assets
-- **Minimal JavaScript** - Only essential functionality
-- **CSS Optimization** - Efficient selector usage and reduced specificity
-- **Font Loading** - Preconnect to Google Fonts for faster loading
-- **Semantic HTML** - Proper document structure for SEO and accessibility
-
-## 🎯 Use Cases
-
-This portfolio demonstrates:
-- **Professional Portfolio Design** - Clean, modern layout for creative professionals
-- **Responsive Web Development** - Mobile-first approach with progressive enhancement  
-- **Design System Implementation** - Consistent design tokens and component patterns
-- **Performance Optimization** - Fast loading and smooth interactions
-- **Accessibility Standards** - ARIA labels and semantic markup
 
 ## 📞 Contact
 

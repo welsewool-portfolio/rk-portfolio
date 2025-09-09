@@ -118,7 +118,7 @@ This portfolio demonstrates:
 ## 📞 Contact
 
 **Roman Kryzhanovskyi**
-- Portfolio: [View Live Site]
+- Portfolio: https://welsewool.github.io/portfolio/
 - Location: Available for remote and on-site work
 - Specialties: UX/UI Design, Design Systems, AI Integration
 

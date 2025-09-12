@@ -2123,6 +2123,12 @@
     width: 1200px; height: auto; object-fit: cover; max-width: 100%;
   }
   
+  /* Final Design Section Custom Styles */
+  .final-design-section {
+    background: var(--grey-100, #F9F9F9);
+    box-shadow: 0 -46px 64px 0 rgba(0, 0, 0, 0.03) inset;
+  }
+  
   .deliverables-narrow {
     display: flex; flex-direction: column; gap: var(--space-lg); width: 400px;
   }

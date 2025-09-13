@@ -777,7 +777,10 @@
     background: linear-gradient(to bottom, #dddce4, #f9f8ff 78.364%) !important;
 }
 
-.workshop-header h2{ font-size:56px;}
+.workshop-header h2{ font-size: var(--text-heading-01);}
+@media (max-width: 1024px) {
+    .workshop-header h2{ font-size: var(--text-heading-02);}
+}
 
 /* Knowledge sharing background */
 .bg-knowledge-sharing {

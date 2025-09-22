@@ -8,7 +8,8 @@
       "mcp__ide__executeCode",
       "WebFetch(domain:fonts.googleapis.com)",
       "Bash(find:*)",
-      "Read(//Users/rkryz/Documents/VibeCoding/Portfolio/**)"
+      "Read(//Users/rkryz/Documents/VibeCoding/Portfolio/**)",
+      "Read(//Users/rkryz/**)"
     ],
     "deny": [],
     "ask": []

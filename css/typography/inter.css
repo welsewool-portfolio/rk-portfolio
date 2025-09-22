@@ -1,0 +1,110 @@
+/* Typography tokens for Inter */
+/* Add `class="typography-inter"` to <body> and load after dm-serif-dm-sans.css */
+body.typography-inter {
+  font-family: 'Inter', sans-serif;
+  color: #101010;
+}
+
+body.typography-inter h1, body.typography-inter h2, body.typography-inter h3, body.typography-inter h4, body.typography-inter h5, body.typography-inter h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Overrides when this set is active */
+body.typography-inter .typo-display {
+  font-family: 'Inter', sans-serif;
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body.typography-inter .typo-heading-1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 120px;
+  line-height: 96px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body.typography-inter .typo-heading-2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 52px;
+  line-height: 44px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body.typography-inter .typo-heading-3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body.typography-inter .typo-heading-4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body.typography-inter .typo-heading-5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body.typography-inter .typo-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body.typography-inter .typo-body-01 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+body.typography-inter .typo-body-01-bold {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+body.typography-inter .typo-body-02 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+body.typography-inter .typo-body-02-bold {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+body.typography-inter .typo-body-03 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+body.typography-inter .typo-lead {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}

@@ -1,0 +1,105 @@
+/* Typography tokens for Helvetica Source Serif Pro */
+/* Add `class="typography-helvetica-source-serif-pro"` to <body> and load after dm-serif-dm-sans.css */
+body.typography-helvetica-source-serif-pro {
+  font-family: 'Inter', sans-serif;
+  color: #101010;
+}
+
+body.typography-helvetica-source-serif-pro h1, body.typography-helvetica-source-serif-pro h2, body.typography-helvetica-source-serif-pro h3, body.typography-helvetica-source-serif-pro h4, body.typography-helvetica-source-serif-pro h5, body.typography-helvetica-source-serif-pro h6 {
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* Overrides when this set is active */
+body.typography-helvetica-source-serif-pro .typo-display {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 92px;
+  line-height: 88px;
+  font-weight: 700;
+}
+
+body.typography-helvetica-source-serif-pro .typo-heading-1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 700;
+}
+
+body.typography-helvetica-source-serif-pro .typo-heading-2 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+body.typography-helvetica-source-serif-pro .typo-heading-3 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+body.typography-helvetica-source-serif-pro .typo-heading-4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+body.typography-helvetica-source-serif-pro .typo-heading-5 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+body.typography-helvetica-source-serif-pro .typo-subtitle {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+body.typography-helvetica-source-serif-pro .typo-body-01 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+body.typography-helvetica-source-serif-pro .typo-body-01-bold {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+body.typography-helvetica-source-serif-pro .typo-body-02 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+body.typography-helvetica-source-serif-pro .typo-body-02-bold {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+body.typography-helvetica-source-serif-pro .typo-body-03 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+body.typography-helvetica-source-serif-pro .typo-lead {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}

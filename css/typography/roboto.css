@@ -1,0 +1,117 @@
+/* Typography tokens for Roboto */
+/* Add `class="typography-roboto"` to <body> and load after dm-serif-dm-sans.css */
+body.typography-roboto {
+  font-family: 'Roboto', sans-serif;
+  color: #101010;
+}
+
+body.typography-roboto h1, body.typography-roboto h2, body.typography-roboto h3, body.typography-roboto h4, body.typography-roboto h5, body.typography-roboto h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Overrides when this set is active */
+body.typography-roboto .typo-display {
+  font-family: 'Roboto', sans-serif;
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: 700;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-heading-1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-heading-2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 52px;
+  line-height: 56px;
+  font-weight: 600;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-heading-3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-heading-4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-heading-5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-body-01 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-body-01-bold {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-body-02 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-body-02-bold {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-body-03 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  font-variation-settings: 'wdth' 100;
+}
+
+body.typography-roboto .typo-lead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-variation-settings: 'wdth' 100;
+}

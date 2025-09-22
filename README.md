@@ -35,11 +35,10 @@ This portfolio belongs to Roman Kryzhanovskyi, a User Experience Designer specia
 - **Animated Elements** - CSS animations and starfield background effects
 - **SEO Optimized** - Proper meta tags, Open Graph, and Twitter Card integration
 - **Performance Focused** - Optimized assets and efficient CSS architecture
-- **Modular Styling** - Shared base stylesheet with per-page overrides
 
 ### Design System
 - **Design Tokens** - CSS custom properties for consistent styling
-- **Typography Scale** - Responsive font sizing with DM Sans and DM Serif Display
+- **Typography Scale** - Responsive font sizing with Inter typeface
 - **Color Palette** - Semantic color system with accessibility considerations
 - **Spacing System** - Consistent spacing scale from 4px to 560px
 - **Component Library** - Reusable UI components and patterns
@@ -52,7 +51,7 @@ This portfolio belongs to Roman Kryzhanovskyi, a User Experience Designer specia
 - **Vanilla JavaScript** - No framework dependencies for optimal performance
 
 ### Key Libraries & Tools
-- **DM Sans & DM Serif Display** - Google Fonts integration for typography
+- **Inter Font** - Google Fonts integration for typography
 - **CSS Custom Properties** - For design token management
 - **CSS Grid & Flexbox** - Modern layout systems
 - **Media Queries** - Responsive breakpoint system

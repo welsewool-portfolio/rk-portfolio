@@ -1,0 +1,14 @@
+/* =========================================================
+   VENDOR PORTAL PAGE CUSTOM STYLES
+   ========================================================= */
+
+/* Information Architecture Section */
+.bg-info-arch {
+    background: #F2F2F2 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Vendor Hero Section */
+.vendor-hero-section {
+    background: linear-gradient(64deg, #F8FCFA 11.09%, #A7ADA6 107.09%) !important;
+}

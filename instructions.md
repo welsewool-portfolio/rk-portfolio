@@ -403,7 +403,7 @@ When analyzing Figma layers, look for reusability indicators:
 - **Portfolio SEO**: Optimize for portfolio discoverability with proper meta tags
 - **Accessibility First**: Complete ARIA attributes, proper heading hierarchy (h1-h6), meaningful alt texts for portfolio images
 - **Clean Structure**: Logical document outline, proper nesting, no unnecessary wrapper elements
-- **External Assets**: Link external CSS with `<link rel="stylesheet" href="styles.css">`
+- **External Assets**: Load the shared base stylesheet with `<link rel="stylesheet" href="style.css">` and follow it with the page override file `<link rel="stylesheet" href="css/page-name.css">`
 - **Portfolio Meta**: Include Open Graph tags, Twitter cards for social sharing
 
 ### Advanced CSS Architecture for Portfolio
@@ -484,7 +484,7 @@ Add common interactive behaviors ONLY when UI elements clearly indicate their pu
 
 ## Required Output Structure
 
-### **styles.css Structure with Complete Tokenization**
+### **style.css Structure with Complete Tokenization**
 ```css
 /* ===== CSS RESET & BASE STYLES ===== */
 *, *::before, *::after { 

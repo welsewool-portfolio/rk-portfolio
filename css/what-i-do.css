@@ -1,0 +1,196 @@
+/* Highlight box for design system page */
+.highlight-box {
+    background: var(--yellow-400);
+    padding: var(--space-md);
+    border-radius: 4px;
+    margin-top: var(--space-lg);
+}
+  
+  /* Text Groups */
+  .text-group { display: flex; flex-direction: column; gap: var(--space-lg); }
+  
+  /* What I Do Page Specific Styles */
+
+/* Highlight Box */
+.highlight-box {
+    background-color: var(--yellow-400);
+    padding: var(--space-sm) var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+.highlight-box p {
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Experience Cloud */
+.experience-cloud {
+    position: relative;
+    width: 100%;
+    height: 772px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cloud-item {
+    position: absolute;
+    font-weight: 300;
+    font-size: var(--text-nav-02);
+    line-height: 18px;
+    color: var(--grey-800);
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cloud-item:hover {
+    color: var(--black);
+    font-weight: 400;
+    transform: scale(1.05);
+}
+
+
+/* Responsive adjustments for what-i-do page */
+@media (max-width: 768px) {
+    .highlight-box p {
+        font-size: var(--text-body-01);
+        line-height: 32px;
+    }
+    
+    
+    .experience-cloud {
+        height: 600px;
+    }
+    
+    .cloud-item {
+        font-size: var(--text-small);
+        line-height: 16px;
+    }}
+
+.section-image-bottom-text .image-container,
+.section-image-bottom-text .text-content,
+.section-image-bottom-text .what-i-do-content,
+.section-image-bottom-text .my-superpower-content {
+    max-width: var(--content-max);
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.what-i-do-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.what-i-do-image {
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 470px) {
+    .what-i-do-content h1 { font-size: 54px; }}
+
+
+
+.what-i-do-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.what-i-do-content .lead-text {
+    text-align: center;
+}
+
+
+.my-superpower-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.my-superpower-image {
+    width: 320px;
+    height: 239px;
+    flex-shrink: 0;
+    background-size: 100% 133.82%;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.my-superpower-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.my-superpower-content .body-01 strong {
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.03px;
+}
+
+/* Responsive adjustments for section-image-bottom-text */
+@media (max-width: 1280px) {
+    
+    
+    
+    .what-i-do-content .lead-text {
+        font-size: var(--text-heading-alt);
+        line-height: 36px;
+    }}
+
+
+@media (max-width: 768px) {
+    
+    .what-i-do-content,
+    .my-superpower-content {
+        gap: var(--space-xl-alt);
+    }
+    
+    
+    
+    .what-i-do-content .lead-text {
+        font-size: var(--text-body-01);
+        line-height: 32px;
+    }
+    
+    
+    .what-i-do-image,
+    .my-superpower-image {
+        width: 240px;
+        height: auto;
+    }
+    
+    .my-superpower-image {
+        height: 180px;
+    }}
+
+  
+/* Inverted Section Text Only */
+.section-text-only--inverted {
+    background-color: var(--black);
+    color: white;
+}
+
+.section-text-only--inverted h1 {
+    color: white;
+  }

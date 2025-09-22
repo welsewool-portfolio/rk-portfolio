@@ -1,0 +1,90 @@
+/* =========================================================
+   DESIGN SYSTEM PAGE - Typography & Custom Styling
+   ========================================================= */
+
+/* Design System Hero Section */
+.design-system-hero {
+  min-height: 720px;
+  display: flex;
+  align-items: center;
+}
+
+.design-system-hero .hero-text-content {
+  width: 40%;
+}
+
+/* Design Systems Title with Gradient */
+.design-systems-title {
+  background: linear-gradient(to bottom, #92b7c0, #40678c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Design Age AI Section */
+.design-age-ai-section {
+  background: var(--grey-100, #F9F9F9) !important;
+}
+
+/* Design System First Attempt Section */
+.design-system-first-attempt-section {
+  background: var(--grey-100, #F9F9F9) !important;
+}
+
+/* Highlight Boxes */
+.highlight-box {
+  background: var(--yellow-400);
+  padding: var(--space-md);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.highlight-box--small {
+  background: var(--yellow-400);
+  padding: 0 var(--space-sm);
+  border-radius: 4px;
+  display: inline;
+}
+
+/* Styleguide Section */
+.styleguide-section {
+  background: var(--white);
+  padding: var(--space-3xl);
+  width: 100%;
+}
+
+.styleguide-section > * {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Spacing Showcase */
+.spacing-showcase {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-4xl);
+}
+
+.spacing-demo { background: var(--yellow-400); }
+.spacing-0 { width: 0; height: 0; }
+.spacing-xxs { width: 4px; height: 4px; }
+.spacing-xs { width: var(--space-xs); height: var(--space-xs); }
+.spacing-sm { width: var(--space-sm); height: var(--space-sm); }
+.spacing-md { width: var(--space-md); height: var(--space-md); }
+.spacing-lg { width: var(--space-lg); height: var(--space-lg); }
+.spacing-xl { width: var(--space-xl); height: var(--space-xl); }
+.spacing-2xl { width: var(--space-2xl); height: var(--space-2xl); }
+.spacing-x2xl { width: var(--space-3xl); height: var(--space-3xl); }
+.spacing-4xl { width: var(--space-4xl); height: var(--space-4xl); }
+.spacing-5xl { width: 160px; height: 160px; }
+.spacing-6xl { width: 240px; height: 240px; }
+.spacing-mega { width: 320px; height: 320px; }
+
+/* Typography Overrides for Responsive */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .design-system-hero .hero-text-content {
+    width: 80%;
+  }
+}

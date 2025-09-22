@@ -1,0 +1,18 @@
+/* =========================================================
+   MEDIA PAGE - Typography & Custom Styling
+   ========================================================= */
+
+/* Media Hero Section */
+.media-hero-section {
+  background: linear-gradient(64deg, #5D5D62 11.09%, #0C0C0C 107.09%) !important;
+}
+
+.media-hero-section h1,
+.media-hero-section p {
+  color: var(--white);
+}
+
+/* UI Modelling Section */
+.bg-ui-modeling {
+  background: #F4F5F7 !important;
+}

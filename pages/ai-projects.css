@@ -1,0 +1,151 @@
+/* =========================================================
+   AI PROJECTS PAGE - Typography & Custom Styling
+   ========================================================= */
+
+/* AI Projects Hero Section */
+.ai-projects-hero {
+  background: linear-gradient(56deg, #6CEDEF 10.29%, #2A47A0 111.94%) !important;
+}
+
+.ai-projects-hero .hero-image-top img {
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+}
+
+.ai-projects-hero h1,
+.ai-projects-hero p {
+  color: var(--black) !important;
+}
+
+/* AI Utilization Section */
+.ai-utilization-section {
+  background: linear-gradient(56deg, #6CEDEF 10.29%, #2A47A0 111.94%) !important;
+}
+
+.ai-utilization-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xl);
+  justify-content: space-between;
+  margin-bottom: var(--space-2xl);
+}
+
+/* TradingView Section */
+.tradingview-section {
+  background: linear-gradient(56deg, #6C6D70 10.29%, #181B25 111.94%) !important;
+}
+
+.tradingview-section h1,
+.tradingview-section h2,
+.tradingview-section h3,
+.tradingview-section p {
+  color: var(--white) !important;
+}
+
+/* TradingView Indicators Sections */
+.tradingview-indicators-section {
+  background: linear-gradient(56deg, #6C6D70 10.29%, #181B25 111.94%) !important;
+}
+
+.tradingview-indicators-section h1,
+.tradingview-indicators-section h2,
+.tradingview-indicators-section h3,
+.tradingview-indicators-section p {
+  color: var(--white) !important;
+}
+
+/* Other Indicators Section */
+.other-indicators-section {
+  background: linear-gradient(56deg, #6C6D70 10.29%, #181B25 111.94%) !important;
+}
+
+.other-indicators-section h1,
+.other-indicators-section h2,
+.other-indicators-section h3,
+.other-indicators-section p {
+  color: var(--white) !important;
+}
+
+/* iOS Application Section */
+.ios-application-section {
+  background: #2B2A2A !important;
+}
+
+.ios-application-section h1,
+.ios-application-section h2,
+.ios-application-section h3,
+.ios-application-section p {
+  color: var(--white) !important;
+}
+
+/* AI Integration into Shopping App Section */
+.ai-shopping-app-section {
+  background: #C9C2AB !important;
+  box-shadow: 0 -46px 64px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+/* Personalization Section */
+.personalization-section {
+  background: #F3F2EE !important;
+}
+
+/* Notifications & AI Suggestions Section */
+.notifications-ai-suggestions-section {
+  background: #F3F2EE !important;
+}
+
+/* Liquid Spillage Software Section */
+.liquid-spillage-section {
+  background: linear-gradient(56deg, #515B6C 10.29%, #101828 111.94%) !important;
+}
+
+.liquid-spillage-section h1,
+.liquid-spillage-section h2,
+.liquid-spillage-section h3,
+.liquid-spillage-section p {
+  color: var(--white) !important;
+}
+
+/* Figma to JSON Plugin Section */
+.figma-json-plugin-section {
+  background: linear-gradient(64deg, #C02D48 11.09%, #02040E 107.09%) !important;
+}
+
+.figma-json-plugin-section h1,
+.figma-json-plugin-section h2,
+.figma-json-plugin-section h3,
+.figma-json-plugin-section p {
+  color: var(--white) !important;
+}
+
+/* Figma MCP Section */
+.figma-mcp-section {
+  background: #23252C !important;
+}
+
+.figma-mcp-section h1,
+.figma-mcp-section h2,
+.figma-mcp-section h3,
+.figma-mcp-section p {
+  color: var(--white) !important;
+}
+
+/* Miro MCP Section */
+.miro-mcp-section {
+  background: var(--yellow-400, #FFC93D) !important;
+}
+
+/* Design Audit AI Tool Section */
+.design-audit-ai-tool-section {
+  background: var(--white) !important;
+}
+
+/* Typography Overrides for Responsive */
+@media (max-width: 1280px) {
+  .ai-utilization-header {
+    gap: var(--space-xl);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

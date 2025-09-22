@@ -1,0 +1,42 @@
+/* =========================================================
+   CODE DISCOVERY PLATFORM PAGE - Typography & Custom Styling
+   ========================================================= */
+
+/* Code Discovery Hero Section */
+.code-discovery-hero-section {
+  background: linear-gradient(64deg, #FFF 11.09%, #D3D3DB 107.09%) !important;
+}
+
+/* Discovery Framework Section */
+.discovery-framework-section {
+  background: var(--white, #FFF) !important;
+  box-shadow: 0 -46px 64px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+/* Functionality Map Section */
+.functionality-map-section {
+  background: var(--white, #FFF) !important;
+  box-shadow: 0 -46px 64px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+/* Interactive Concept 01 Section */
+.interactive-concept-01-section {
+  background: var(--grey-100, #F9F9F9) !important;
+  box-shadow: 0 -46px 64px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+/* Interactive Concept 02 Section */
+.interactive-concept-02-section {
+  background: var(--grey-100, #F9F9F9) !important;
+}
+
+/* Final Design Section */
+.final-design-section {
+  background: var(--grey-100, #F9F9F9) !important;
+}
+
+/* Information Architecture Section */
+.bg-info-arch {
+  background: #F2F2F2 !important;
+  padding-bottom: 0 !important;
+}

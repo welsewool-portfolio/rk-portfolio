@@ -1,0 +1,114 @@
+/* =========================================================
+   TEAM EDUCATION PAGE - Typography & Custom Styling
+   ========================================================= */
+
+/* Workshop gradient background */
+.bg-gradient-workshop {
+  background: linear-gradient(to bottom, #dddce4, #f9f8ff 78.364%) !important;
+}
+
+/* Knowledge sharing background */
+.bg-knowledge-sharing {
+  background-image: url('img/team-education/other knowledge sharing bg.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* AI Talk custom gradient background */
+.bg-ai-talk {
+  background: linear-gradient(199deg, #9DAEC1 0.66%, #F4FFFD 50.41%) !important;
+}
+
+/* Workshop header with image next to title */
+.workshop-header {
+  display: flex;
+  gap: var(--space-2xl);
+  align-items: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.workshop-header img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.workshop-header h2 {
+  flex: 1;
+}
+
+/* AI Talk header with image next to title */
+.ai-talk-header {
+  display: flex;
+  gap: var(--space-xl);
+  align-items: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.ai-talk-header img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.ai-talk-header h2 {
+  flex: 1;
+}
+
+/* Section Objectives */
+.section-objectives {
+  padding: var(--space-3xl);
+  background: var(--grey-100);
+  width: 100%;
+}
+
+.section-objectives .two-columns {
+  gap: var(--space-4xl);
+  max-width: var(--content-max);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-objectives .body-02 ul {
+  list-style: disc;
+  padding-left: 27px;
+  margin: 0;
+}
+
+.section-objectives .activities-extension h5 {
+  margin: 0 0 var(--space-lg) 0;
+}
+
+/* Typography Overrides for Responsive */
+@media (max-width: 1024px) {
+  .workshop-header,
+  .ai-talk-header {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-lg);
+  }
+
+  .section-objectives {
+    padding: var(--space-2xl);
+  }
+
+  .section-objectives .two-columns {
+    flex-direction: column;
+    gap: var(--space-2xl);
+  }
+}
+
+@media (max-width: 768px) {
+  .workshop-header img,
+  .ai-talk-header img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .section-objectives {
+    padding: var(--space-xl);
+  }
+}

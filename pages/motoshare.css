@@ -1,0 +1,49 @@
+/* =========================================================
+   MOTOSHARE PAGE - Typography & Custom Styling
+   ========================================================= */
+
+/* Custom display classes for motoshare page */
+.display-72px {
+  font-size: 72px;
+  font-weight: var(--weight-black);
+  line-height: 0.75;
+  text-transform: uppercase;
+  font-family: var(--font-primary);
+  color: var(--white);
+}
+
+.display-56px {
+  font-size: 56px;
+  font-weight: var(--weight-black);
+  line-height: 0.75;
+  text-transform: uppercase;
+  font-family: var(--font-primary);
+  color: var(--white);
+}
+
+.display-48px {
+  font-size: 48px;
+  font-weight: var(--weight-black);
+  line-height: 0.75;
+  text-transform: uppercase;
+  font-family: var(--font-primary);
+  color: var(--white);
+}
+
+.display-40px {
+  font-size: 40px;
+  font-weight: var(--weight-black);
+  line-height: 0.75;
+  text-transform: uppercase;
+  font-family: var(--font-primary);
+  color: var(--white);
+}
+
+.display-32px {
+  font-size: 32px;
+  font-weight: var(--weight-black);
+  line-height: 0.75;
+  text-transform: uppercase;
+  font-family: var(--font-primary);
+  color: var(--white);
+}

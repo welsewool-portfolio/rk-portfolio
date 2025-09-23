@@ -19,7 +19,14 @@
       "Bash(then)",
       "Bash(if ! grep -q \"css/typography-inter.css\" \"$file\")",
       "Bash(fi)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(__NEW_LINE__ mv \"typography-dm-serif-dm-sans.css\" \"dm-serif-dm-sans.css\")",
+      "Bash(__NEW_LINE__ mv \"typography-roboto.css\" \"roboto.css\")",
+      "Bash(__NEW_LINE__ mv \"typography-open-sans.css\" \"open-sans.css\")",
+      "Bash(__NEW_LINE__ mv \"typography-montserrat.css\" \"montserrat.css\")",
+      "Bash(__NEW_LINE__ mv \"typography-inter.css\" \"inter.css\")",
+      "Bash(__NEW_LINE__ mv \"typography-helvetica-source-serif-pro.css\" \"helvetica-source-serif-pro.css\")",
+      "Bash(__NEW_LINE__ ls -la)"
     ],
     "deny": [],
     "ask": []

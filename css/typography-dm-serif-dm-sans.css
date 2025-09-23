@@ -1,0 +1,120 @@
+/* DM Serif + DM Sans Typography Styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital,wght@0,400;1,400&display=swap');
+
+/* Display */
+.display {
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 180px;
+}
+
+/* Headings */
+.heading-01 {
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.heading-02 {
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.heading-03 {
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.heading-04 {
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.heading-05 {
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Lead Text */
+.lead-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+/* Body Text */
+.body-01 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.body-01-bold {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.body-02 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.body-02-bold {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.body-03 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* Quote */
+.quote {
+  font-family: "DM Serif Text", serif;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+}

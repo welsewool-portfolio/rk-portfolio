@@ -9,7 +9,17 @@
       "WebFetch(domain:fonts.googleapis.com)",
       "Bash(find:*)",
       "Read(//Users/rkryz/Documents/VibeCoding/Portfolio/**)",
-      "Read(//Users/rkryz/**)"
+      "Read(//Users/rkryz/**)",
+      "mcp__figma-dev-mode-mcp__get_code",
+      "mcp__figma-dev-mode-mcp__get_metadata",
+      "mcp__figma-dev-mode-mcp__get_variable_defs",
+      "Bash(for file in \"/Users/rkryz/Documents/VibeCoding/Portfolio 02/html-light-01\"/*.html)",
+      "Bash(do)",
+      "Bash(if [ \"$file\" != \"/Users/rkryz/Documents/VibeCoding/Portfolio 02/html-light-01/index.html\" ])",
+      "Bash(then)",
+      "Bash(if ! grep -q \"css/typography-inter.css\" \"$file\")",
+      "Bash(fi)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

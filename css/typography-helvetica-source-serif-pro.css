@@ -1,0 +1,120 @@
+/* Helvetica + Source Serif Pro Typography Styles */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Display */
+.display {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 92px;
+  font-weight: 700;
+  line-height: 88px;
+}
+
+/* Headings */
+.heading-01 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.heading-02 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.heading-03 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.heading-04 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.heading-05 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Lead Text */
+.lead-text {
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+/* Body Text */
+.body-01 {
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.body-01-bold {
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.body-02 {
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.body-02-bold {
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.body-03 {
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Quote */
+.quote {
+  font-family: "Source Serif Pro", serif;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+}

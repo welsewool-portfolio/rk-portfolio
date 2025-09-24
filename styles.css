@@ -160,7 +160,7 @@
   }
   
   /* Individual heading sizes/line-heights (оригинальные значения сохранены) */
-  h1 { font-size: var(--text-heading-01); line-height: 0.83; word-break: break-all; overflow-wrap: anywhere; }
+  h1 { font-size: var(--text-heading-01); line-height: 0.83; word-break: keep-all; overflow-wrap: break-word; }
   h2 { font-size: var(--text-heading-02); line-height: 0.83; }
   h3 { font-size: var(--text-heading-03); line-height: 0.89; }
   h4 { font-size: var(--text-heading-04); line-height: 0.83; }
@@ -2203,33 +2203,43 @@
      FOOTER
      ========================================================= */
   .footer {
-    background: var(--grey-100);
-    padding: var(--space-xl) 0;
-    display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: var(--space-sm);
+    background: #000000;
+    padding: 32px 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 12px;
     width: 100%;
   }
   .go-to-top-button {
-    background: var(--white); border: 2px solid var(--black);
-    padding: var(--space-sm); cursor: pointer; box-shadow: 1px 1px 2px 0 rgba(0,0,0,.25);
+    background: #ffffff; border: none;
+    border-radius: 50px; cursor: pointer;
     width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;
-    transition: var(--transition); flex-shrink: 0;
+    transition: background-color 0.2s ease; flex-shrink: 0;
   }
-  .go-to-top-button:hover { background: var(--black); border: 2px solid var(--black); }
-  .go-to-top-button:active{ background: var(--yellow-400); border: 2px solid var(--grey-800); }
+  .go-to-top-button:hover { background: var(--yellow-400); }
+  .go-to-top-button:active { opacity: 0.6; }
   
   .arrow-icon {
-    display: block; width: 0; height: 0;
-    border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 8px solid var(--black);
-    transition: var(--transition);
+    width: 24px; height: 24px;
+    display: flex; align-items: center; justify-content: center;
   }
-  .go-to-top-button:hover .arrow-icon { border-bottom-color: var(--white); }
+
+  .arrow-icon::before {
+    content: '↑';
+    font-size: 18px;
+    font-weight: bold;
+    color: #101010;
+    line-height: 1;
+  }
   
   .go-to-top-text {
-    font-size: var(--text-body-03);
-    font-weight: var(--weight-black);
-    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
     line-height: 24px;
+    letter-spacing: 0.03px;
+    color: #ffffff;
+    text-transform: uppercase;
     text-align: center;
+    margin: 0;
     width: min-content; min-width: 100%;
   }
   

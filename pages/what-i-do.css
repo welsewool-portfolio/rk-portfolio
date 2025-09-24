@@ -69,6 +69,8 @@
 @media (max-width: 1280px) {
   .what-i-do-content h1 {
     font-size: 54px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
 }
 

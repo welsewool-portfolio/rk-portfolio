@@ -64,6 +64,8 @@
 
 .index-hero h1 {
     color: #FFF;
+    word-break: keep-all;
+    overflow-wrap: break-word;
 }
 
 /* Starfield Animation */

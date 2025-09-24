@@ -116,6 +116,7 @@
   font-size: var(--text-display);
   font-weight: var(--weight-bold);
   line-height: var(--line-display);
+  text-transform: none;
 }
 
 /* Headings */
@@ -125,6 +126,9 @@ h1 {
   font-size: var(--text-heading-01);
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-01);
+  text-transform: none;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 h2 {
@@ -133,6 +137,7 @@ h2 {
   font-size: var(--text-heading-02);
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-02);
+  text-transform: none;
 }
 
 h3 {
@@ -141,6 +146,7 @@ h3 {
   font-size: var(--text-heading-03);
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-03);
+  text-transform: none;
 }
 
 h4 {
@@ -149,6 +155,7 @@ h4 {
   font-size: var(--text-heading-04);
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-04);
+  text-transform: none;
 }
 
 h5 {
@@ -157,6 +164,7 @@ h5 {
   font-size: var(--text-heading-05);
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-05);
+  text-transform: none;
 }
 
 h6 {
@@ -165,6 +173,7 @@ h6 {
   font-size: var(--text-heading-06);
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-06);
+  text-transform: none;
 }
 
 /* Subtitle */

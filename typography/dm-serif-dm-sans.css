@@ -124,6 +124,8 @@ h1 {
   font-weight: var(--weight-regular);
   line-height: var(--line-heading-01);
   text-transform: none;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 h2 {

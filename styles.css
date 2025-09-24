@@ -2317,15 +2317,17 @@
     .gallery-grid { flex-direction: column; }
   }
  
+  /* Tablet adjustments - when 2nd level nav is hidden */
+  @media (max-width: 1200px) {
+    main {
+      margin-top: 64px; /* Only account for first level nav when 2nd level is hidden */
+    }
+  }
+
   @media (max-width: 768px) {
     /* Mobile-specific adjustments - hamburger only shows when needed */
     .body-02 { line-height: 1.4; }
-    
-    /* Adjust main content margin for mobile */
-    main {
-      margin-top: 64px; /* Only account for first level nav on mobile */
-    }
-    
+
     /* Hide second level nav on mobile by default */
     .nav-wrapper .nav-level-02 {
       display: none;

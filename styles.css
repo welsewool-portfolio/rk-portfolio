@@ -799,10 +799,7 @@
 /* =========================================================
    CODE DISCOVERY PLATFORM PAGE CUSTOM STYLES
    ========================================================= */
-/* Code Discovery Hero Section */
-.code-discovery-hero-section {
-    background: linear-gradient(64deg, #FFF 11.09%, #D3D3DB 107.09%) !important;
-}
+/* Code Discovery Hero Section - background moved to page-specific CSS */
 
 /* =========================================================
    VENDOR PORTAL PAGE CUSTOM STYLES

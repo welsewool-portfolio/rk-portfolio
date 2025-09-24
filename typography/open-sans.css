@@ -226,3 +226,9 @@ h6 {
   font-weight: var(--weight-light);
   line-height: var(--line-body-03);
 }
+
+/* Strong tag styling */
+strong {
+  font-weight: var(--weight-bold); /* 700 */
+  font-style: normal;
+}

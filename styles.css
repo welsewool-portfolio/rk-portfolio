@@ -1475,20 +1475,14 @@
    MEDIA PAGE CUSTOM STYLES
    ========================================================= */
 
-/* Media Hero Section */
-.media-hero-section {
-    background: linear-gradient(64deg, #5D5D62 11.09%, #0C0C0C 107.09%) !important;
-}
+/* Media Hero Section - Background image handled in pages/media.css */
 
 .media-hero-section h1,
 .media-hero-section p {
     color: var(--white);
 }
 
-/* Design Age AI Section */
-.design-age-ai-section {
-    background: var(--grey-100, #F9F9F9) !important;
-}
+/* Design Age AI Section - Background handled in pages/media.css */
 
 /* Design System First Attempt Section */
 .design-system-first-attempt-section {

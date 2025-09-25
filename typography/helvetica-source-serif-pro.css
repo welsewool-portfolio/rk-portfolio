@@ -138,6 +138,7 @@ h2 {
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-02);
   text-transform: none;
+  letter-spacing: -1px;
 }
 
 h3 {

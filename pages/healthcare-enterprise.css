@@ -252,8 +252,6 @@
 .section-result-blue h2 {
   color: white;
   margin: 0 auto;
-  font-size: 44px;
-  line-height: 40px;
   max-width: var(--content-max);
   width: 100%;
 }
@@ -281,8 +279,6 @@
 .result-column h4 {
   color: white;
   margin: 0;
-  font-size: 24px;
-  line-height: 24px;
 }
 
 .result-column p {
@@ -326,8 +322,6 @@
 .section-title-image-bottom-bg h3 {
   color: #101010;
   margin: 0;
-  font-size: 36px;
-  line-height: 36px;
 }
 
 .section-title-image-bottom-bg .image-container {
@@ -429,10 +423,7 @@
     gap: var(--space-xl);
   }
 
-  .section-result-blue h2 {
-    font-size: 32px;
-    line-height: 36px;
-  }
+  /* h2 responsive styling handled by typography system */
 }
 
 .final-design-section h2 {

@@ -132,7 +132,7 @@ h1 {
   font-weight: var(--weight-bold);
   line-height: var(--line-heading-01);
   text-transform: none;
-  word-break: keep-all;
+  word-break: normal;
   overflow-wrap: break-word;
 }
 

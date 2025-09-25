@@ -119,7 +119,7 @@ h1 {
   font-weight: var(--weight-black);
   line-height: var(--line-heading-01);
   text-transform: none;
-  word-break: keep-all;
+  word-break: normal;
   overflow-wrap: break-word;
 }
 
@@ -225,4 +225,10 @@ h6 {
   font-size: var(--text-body-03);
   font-weight: var(--weight-light);
   line-height: var(--line-body-03);
+}
+
+/* Strong tag styling */
+strong {
+  font-weight: var(--weight-bold); /* 700 */
+  font-style: normal;
 }

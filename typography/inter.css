@@ -120,7 +120,7 @@ h1 {
   font-size: var(--text-heading-01);
   font-weight: var(--weight-black);
   line-height: var(--line-heading-01);
-  word-break: keep-all;
+  word-break: normal;
   overflow-wrap: break-word;
 }
 

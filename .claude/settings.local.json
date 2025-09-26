@@ -27,7 +27,8 @@
       "Bash(__NEW_LINE__ mv \"typography-inter.css\" \"inter.css\")",
       "Bash(__NEW_LINE__ mv \"typography-helvetica-source-serif-pro.css\" \"helvetica-source-serif-pro.css\")",
       "Bash(__NEW_LINE__ ls -la)",
-      "mcp__figma-dev-mode-mcp__get_screenshot"
+      "mcp__figma-dev-mode-mcp__get_screenshot",
+      "Bash(open team-education.html)"
     ],
     "deny": [],
     "ask": []

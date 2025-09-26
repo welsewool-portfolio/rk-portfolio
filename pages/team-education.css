@@ -2,113 +2,198 @@
    TEAM EDUCATION PAGE - Typography & Custom Styling
    ========================================================= */
 
-/* Workshop gradient background */
-.bg-gradient-workshop {
-  background: linear-gradient(to bottom, #dddce4, #f9f8ff 78.364%) !important;
-}
-
-/* Knowledge sharing background */
-.bg-knowledge-sharing {
-  background-image: url('img/team-education/other knowledge sharing bg.png') !important;
-  background-repeat: no-repeat;
-  background-size: cover !important;
-  background-position: center !important;
-}
-
-/* AI Talk custom gradient background */
-.bg-ai-talk {
+/* Team Education Hero Section */
+.team-education-hero {
   background: linear-gradient(199deg, #9DAEC1 0.66%, #F4FFFD 50.41%) !important;
 }
 
-/* Workshop header with image next to title */
-.workshop-header {
-  display: flex;
-  gap: var(--space-2xl);
+.team-education-hero .hero-content {
+  flex-direction: row;
   align-items: center;
-  margin-bottom: var(--space-2xl);
+  gap: var(--space-2xl);
 }
 
-.workshop-header img {
-  width: 80px;
-  height: 80px;
+.team-education-hero .hero-image-content {
+  order: 1;
+  max-width: 400px;
+}
+
+.team-education-hero .hero-image-content img {
+  width: 400px;
+  height: 400px;
   object-fit: contain;
-  flex-shrink: 0;
 }
 
-.workshop-header h2 {
+.team-education-hero .hero-text-content {
+  order: 2;
   flex: 1;
 }
 
-/* AI Talk header with image next to title */
-.ai-talk-header {
+/* Complex Design Systems Section */
+.complex-design-systems-section {
+  background: linear-gradient(199deg, #9DAEC1 0.66%, #F4FFFD 50.41%) !important;
+}
+
+.complex-design-systems-section .image-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.complex-design-systems-section .image-holder img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+
+/* Workshop Materials Section */
+.workshop-materials-section {
+  background: linear-gradient(199deg, #9DAEC1 0.66%, #F4FFFD 50.41%) !important;
+}
+
+.workshop-materials-section .text-content {
+  border-left: 24px solid #202032;
+  padding-left: 60px;
+}
+
+/* Practical Topics Section */
+.practical-topics-section {
+  background: linear-gradient(199deg, #9DAEC1 0.66%, #F4FFFD 50.41%) !important;
+}
+
+.practical-topics-section .text-content {
+  border-left: 24px solid #202032;
+  padding-left: 60px;
+}
+
+/* Exercises Playground Section */
+.exercises-playground-section {
+  background: #202032 !important;
+}
+
+.exercises-playground-section .text-content {
+  border-left: 24px solid var(--white);
+  padding-left: 60px;
+}
+
+.exercises-playground-section h2,
+.exercises-playground-section h5,
+.exercises-playground-section p,
+.exercises-playground-section li {
+  color: var(--white) !important;
+}
+
+/* Live Sessions Section */
+.live-sessions-section {
+  background: linear-gradient(199deg, #9DAEC1 0.66%, #F4FFFD 50.41%) !important;
+}
+
+.live-sessions-section .text-content {
+  border-left: 24px solid #202032;
+  padding-left: 60px;
+}
+
+/* Future AI Talk Section */
+.future-ai-talk-section {
+  background: linear-gradient(199deg, #9DAEC1 0.66%, #F4FFFD 50.41%) !important;
+}
+
+.future-ai-talk-section .ai-talk-header {
   display: flex;
   gap: var(--space-xl);
   align-items: center;
   margin-bottom: var(--space-2xl);
 }
 
-.ai-talk-header img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
+.future-ai-talk-section .ai-talk-image {
   flex-shrink: 0;
+  width: 320px;
 }
 
-.ai-talk-header h2 {
+.future-ai-talk-section .ai-talk-image img {
+  width: 100%;
+  height: auto;
+  max-height: 339px;
+  object-fit: contain;
+}
+
+.future-ai-talk-section .ai-talk-text {
   flex: 1;
 }
 
-/* Section Objectives */
-.section-objectives {
-  padding: var(--space-3xl);
-  background: var(--grey-100);
-  width: 100%;
+.future-ai-talk-section .ai-talk-text h1 {
+  font-size: var(--text-heading-01);
+  line-height: var(--line-heading-01);
+  margin-bottom: var(--space-xl);
 }
 
-.section-objectives .two-columns {
-  gap: var(--space-4xl);
-  max-width: var(--content-max);
-  margin: 0 auto;
-  width: 100%;
+.future-ai-talk-section .goal-column {
+  border-left: 24px solid #202032;
+  padding-left: 60px;
+  height: fit-content;
 }
 
-.section-objectives .body-02 ul {
-  list-style: disc;
-  padding-left: 27px;
-  margin: 0;
+/* Other Knowledge Sharings Section */
+.other-knowledge-sharings-section {
+  background: url('../img/team-education/other-topics-bg.png') #C7D3DB;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
-.section-objectives .activities-extension h5 {
-  margin: 0 0 var(--space-lg) 0;
-}
+
+
 
 /* Typography Overrides for Responsive */
 @media (max-width: 1024px) {
-  .workshop-header,
-  .ai-talk-header {
+  .team-education-hero .hero-content {
     flex-direction: column;
     text-align: center;
     gap: var(--space-lg);
   }
 
-  .section-objectives {
-    padding: var(--space-2xl);
+  .team-education-hero .hero-image-content {
+    order: 1;
   }
 
-  .section-objectives .two-columns {
+  .team-education-hero .hero-text-content {
+    order: 2;
+  }
+
+  .future-ai-talk-section .ai-talk-header {
     flex-direction: column;
-    gap: var(--space-2xl);
+    text-align: center;
+    gap: var(--space-lg);
+  }
+
+  .future-ai-talk-section .ai-talk-image {
+    width: 250px;
   }
 }
 
 @media (max-width: 768px) {
-  .workshop-header img,
-  .ai-talk-header img {
-    width: 48px;
-    height: 48px;
+  .team-education-hero .hero-image-content {
+    max-width: 250px;
   }
 
-  .section-objectives {
-    padding: var(--space-xl);
+  .team-education-hero .hero-image-content img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .future-ai-talk-section .ai-talk-image {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Remove left borders and padding on small mobile screens */
+  .workshop-materials-section .text-content,
+  .practical-topics-section .text-content,
+  .exercises-playground-section .text-content,
+  .live-sessions-section .text-content,
+  .future-ai-talk-section .goal-column {
+    border-left: none;
+    padding-left: 0;
   }
 }

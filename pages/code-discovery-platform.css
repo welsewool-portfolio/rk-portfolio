@@ -188,49 +188,6 @@
   font-weight: var(--weight-bold);
 }
 
-/* Typography Adjustments */
-.code-discovery-platform h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: -1px;
-}
-
-.code-discovery-platform h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 20px;
-}
-
-.code-discovery-platform h5 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 20px;
-}
-
-.code-discovery-platform .body-02 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-.code-discovery-platform .body-03 {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.code-discovery-platform .lead-text {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 32px;
-}
 
 /* Discovery Framework Section */
 .discovery-framework-section {
